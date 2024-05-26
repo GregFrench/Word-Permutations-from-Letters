@@ -109,6 +109,8 @@ function App() {
             name="letter[]"
             size="1"
             maxLength="1"
+            autoCapitalize="none"
+            autoCorrect="off"
             value={letters[i]}
             onChange={(event) => handleChange(event, i)}
             ref={inputRefs.current[i]}
