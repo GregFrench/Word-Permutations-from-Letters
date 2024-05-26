@@ -77,13 +77,15 @@ function App() {
 
   const handleChange = (e, i) => {
     const arr = [...letters];
-    const value = e.target.value;
+    let value = e.target.value.toLowerCase();
 
     if (value.length === 1 && i < NUM_LETTERS - 1) {
       inputRefs.current[i + 1].current.focus();
     }
 
-    arr[i] = e.target.value;
+    value = value.toLowerCase();
+
+    arr[i] = value;
 
     setLetters(arr);
   };
