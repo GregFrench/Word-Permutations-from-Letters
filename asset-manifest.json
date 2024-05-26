@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Word-Permutations-from-Letters/static/css/main.cdbd4752.css",
+    "main.css": "/Word-Permutations-from-Letters/static/css/main.f783192c.css",
     "main.js": "/Word-Permutations-from-Letters/static/js/main.86dd879e.js",
     "static/js/453.e82002b9.chunk.js": "/Word-Permutations-from-Letters/static/js/453.e82002b9.chunk.js",
     "index.html": "/Word-Permutations-from-Letters/index.html",
-    "main.cdbd4752.css.map": "/Word-Permutations-from-Letters/static/css/main.cdbd4752.css.map",
+    "main.f783192c.css.map": "/Word-Permutations-from-Letters/static/css/main.f783192c.css.map",
     "main.86dd879e.js.map": "/Word-Permutations-from-Letters/static/js/main.86dd879e.js.map",
     "453.e82002b9.chunk.js.map": "/Word-Permutations-from-Letters/static/js/453.e82002b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdbd4752.css",
+    "static/css/main.f783192c.css",
     "static/js/main.86dd879e.js"
   ]
 }
