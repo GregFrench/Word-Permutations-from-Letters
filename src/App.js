@@ -104,7 +104,7 @@ function App() {
 
     for (let i = 0; i < letters.length; i++) {
       form.push(
-        <Col lg={1} md={1} sm={2} xs={2} key={i}>
+        <Col lg={1} md={1} sm={2} xs={3} key={i}>
           <Form.Control
             className="input"
             type="text"
@@ -188,13 +188,13 @@ function App() {
         <div className="form-container">
           <Form className="text-center" onSubmit={handleSubmit}>
             <Row>
-              <Col lg={10} md={8} sm={6} xs={12}>
+              <Col lg={10} md={12} sm={12} xs={12}>
                 {createForm()}
               </Col>
-              <Col lg={1} md={2} sm={3} xs={6}>
+              <Col lg={1} md={6} sm={6} xs={6}>
                 <Button className="button" variant="success" onClick={handleSubmit}>Submit</Button>
               </Col>
-              <Col lg={1} md={2} sm={3} xs={6}>
+              <Col lg={1} md={6} sm={6} xs={6}>
                 <Button variant="danger" onClick={resetLetters}>Reset</Button>
               </Col>
             </Row>
